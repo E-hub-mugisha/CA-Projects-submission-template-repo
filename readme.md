@@ -29,15 +29,15 @@ Attached is a link to my Git Repo, In it theres a .ipynb file that shows the pac
 Attached id the link to our PowerBI dashboard that will visualize our findings.
 
 ## Author
-Elly Okumu \n
+Elly Okumu 
 
-Awudu Jamal \n
+Awudu Jamal 
 
-Jonas Afutu \n
+Jonas Afutu 
 
-Vincent Kipkorir \n
+Vincent Kipkorir 
 
-RIchard Gbamara \n
+RIchard Gbamara 
 
-Eric Mugisha \n
+Eric Mugisha 
 
