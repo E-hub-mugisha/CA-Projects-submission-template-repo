@@ -32,7 +32,7 @@ Part 4 : Training our various ML models and evaluate their metrics
     (f) Arima Model
 
 | Model   |   r_2score |  mean squared error | mean average error |
-|-----------|-------------|:-------------:|------:|S
+|-----------|-------------|:-------------:|------:|
 | Linear Regression | 0.233980 |	9.520182e+05 |	421.559150|
 | Random Forest | 0.937429	| 7.776341e+04	| 54.922638|
 | Support Vector | 0.350954	 | 8.066418e+05 |	386.584585|
