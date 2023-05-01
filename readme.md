@@ -1,10 +1,10 @@
 # CA-Projects-template-submission-repo
-*short project description*
+## TEAM PARIS LP2 - TIME SERIES REGRESSION ANALYSIS PROJECT
 
 ## Summary
 | Code      | Name        | Published Article |  Deployed App |
 |-----------|-------------|:-------------:|------:|
-| LP2 | Time series Linear Regression |  https://medium.com/afutunikoi/store-sales-time-series-forecasting-and-analysis-regression-project-9281783ed2d2 | [Best app of the world](/) |
+| LP2 | Time series Linear Regression |  https://medium.com/afutunikoi/store-sales-time-series-forecasting-and-analysis-regression-project-9281783ed2d2 |  https://github.com/EllyOkumuAzubi/LP2-REGRESSION-ANALTSIS-TIME-SERIES.-TEAM-PARIS-.git|
 
 ## Project Description
 Our project is a time series regression analysis project, Where we build regression project and build various models . Afterwards we will select and deploy our best model after tuning. 
