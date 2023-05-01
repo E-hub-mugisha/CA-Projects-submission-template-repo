@@ -1,43 +1,68 @@
 # CA-Projects-template-submission-repo
-*This is an analysis carried on the funding received in Indian companies from the years 2018 - 2021, Below are published our findings in a LinkedIn article attached as a link, Jupyter notebook and datasets in the GitHub repository and a link to our PowerBI dashboard having 3 pages*
+*short project description*
 
 ## Summary
 | Code      | Name        | Published Article |  Deployed App |
 |-----------|-------------|:-------------:|------:|
-| LP1  |  INDIA START UP ANALYSIS |  [https://www.linkedin.com/pulse/aricle-company-funding-india-elly-othim(/)] | [https://app.powerbi.com/groups/me/reports/87c65e32-aa9f-418a-af04-af3e9d6e7d1e](/) |
+| LP2 | Time series Linear Regression |  https://medium.com/afutunikoi/store-sales-time-series-forecasting-and-analysis-regression-project-9281783ed2d2 | [Best app of the world](/) |
 
 ## Project Description
-A start-up ecosystem company, targeting the Indian market has expressed interest in the Indian market.
-This analysis will help them make informed and intelligent business decisions, and to leverage on the funding given.
-Based on the available data I.e., 2018 – 2021
-
-To effect this analysis, we answered a series of 5 questions to gain more insight on our data and create and understand relationships. 
-1. At what stage did most companies received funding ?
-2. Does the location influence of the most funding stage  ?
-3.  a) What are the top 10 most funded companies/sectors ?
-    b) What stage are the the top 10 most funded companies/sectors ?
-4. Who are the most Funding investors for the most funded year ? 
-5. What has the funding over the years trend been like ?
-    a) What year was the most funding given ?
-    b) What is the average funding for every year ?
-    c) What is the % increase in funding from year to year ?
+Our project is a time series regression analysis project, Where we build regression project and build various models . Afterwards we will select and deploy our best model after tuning. 
 
 ## Setup
-Attached is a link to my Git Repo, In it theres a .ipynb file that shows the packages, libraries and modulles that we used. 
+The set up of the training set was divided into 4 parts 
+
+Part 1 : Understanding the business Objective and defining the success 
+     
+Part 2 : Understanding our data 
+    Here we had a series of formulated questions and hypothesis to better understand our data 
+
+
+Part 3 : Prepare our data for training 
+    (a) Encode the categorical column
+    (b) Scale the data, to prevent over/under fitting 
+    (c) Split the data into train set and test set 
+
+Part 4 : Training our various ML models and evaluate their metrics 
+    (a) Model 1 - Linear Regression 
+    (b) Random Forest 
+    (c) Support Vector 
+    (d) X Boost 1
+    (e) X Boost 2 
+    (f) Arima Model
+
+| Model   |   r_2score |  mean squared error | mean average error |
+|-----------|-------------|:-------------:|------:|S
+| Linear Regression | 0.233980 |	9.520182e+05 |	421.559150|
+| Random Forest | 0.937429	| 7.776341e+04	| 54.922638|
+| Support Vector | 0.350954	 | 8.066418e+05 |	386.584585|
+| X Boost 1 (n=10)| 0.772901 |	2.822418e+05 |	194.316372|
+| X Boost 1 (n=50)| 0.772901  |	2.822418e+05 |	194.316372|
+|  AR | 0.699139 |	1.211640e+06|	510.246890 |
+
+
+Part 5 : Fine tune our model
+The goal is to: 
+-(a) minimize RMSLE
+-(b) increase r2 score  
+
+
+
 
 ## App Execution
-Attached id the link to our PowerBI dashboard that will visualize our findings.
+...
 
-## Author
-Elly Okumu 
+**Authors**
 
-Awudu Jamal 
+- Elly Okumu
 
-Jonas Afutu 
+- Awudu Jamal
 
-Vincent Kipkorir 
+- Jonas Afutu
 
-RIchard Gbamara 
+- Vincent Kipkorir 
 
-Eric Mugisha 
+- Eric Mugisha
+
+- David Mantey
 
