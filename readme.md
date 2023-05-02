@@ -4,7 +4,7 @@
 ## Summary
 | Code      | Name        | Published Article |  Deployed App |
 |-----------|-------------|:-------------:|------:|
-| LP2 | Time series Linear Regression |  https://medium.com/afutunikoi/store-sales-time-series-forecasting-and-analysis-regression-project-9281783ed2d2 |  https://github.com/EllyOkumuAzubi/LP2-REGRESSION-ANALTSIS-TIME-SERIES.-TEAM-PARIS-.git|
+| LP2 | Time series Linear Regression |  https://www.linkedin.com/posts/mugisha-eric-411547135_time-series-forecasting-and-analysis-of-store-activity-7059111657473474561-HJBH?utm_source=share&utm_medium=member_desktop |  https://github.com/E-hub-mugisha/LP2-REGRESSION-ANALYSIS-TIME-SERIES.-TEAM-PARIS--main|
 
 ## Project Description
 Our project is a time series regression analysis project, Where we build regression project and build various models . Afterwards we will select and deploy our best model after tuning. 
